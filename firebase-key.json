@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "quickmealplanner",
+  "private_key_id": "c96370119956fdbd32352888873242aea9d7a56e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC/CPICds7XqmjK\ngGZ3Ikurp/0GpbKKQIrh+UvvcBKyplglkrPL/so2qqRgdU1g365CJGbnmXyo/iW5\nKw9F9CoOZ3tKcLD434ivSyk+dv8ZfyNFPMxAtCdmDb6veaCIgLBL+HItWHUN2A02\ne2xxue44BLDP6Tudkk0paw48AxIaJcxMiO9jg7Kjbew+dI5iq57YeNA6PrxlxO2A\nLQcTSuPKe6+P91mFmOtjaOlMDHqFQUrIU0x/5e9YaeOmKHK8iW5yFVvPza4pd5XN\niIFuBVQA9qTFZkF+K5EN+Ptz57+rIirvwpyZwow0Mtkbr7KHcSYVmAwIRmlMe/DS\nG4j99D4BAgMBAAECggEAMoXWn3E1dhMzAK9hqgtPcPgOMpZa+DZmpKnue8Yro8Tb\nliBM3dwmNbv+miYbz02JBCQldQYCUp1Yc7bgJLOU9ddHY6IXI9LWjum1YDhPcjpO\nJS8Vo90heFuVPUpQ+xjxxz3PUI/O8Vjc8bZFsXQnfPg8nNgFtMAvGQ+fpZ54SKKV\n9PlW6nQ4e2PwVyUFRdO5yc8H2DZZ7aZ3h3lZ31Xz/4ouFW5fpzOdvxLalGkDV+GZ\nUQconxwzdaswgTUsANbVZ0O356TaWjIRS7UbcP1i/VLHArWH4sd/scTcGaxmmsE/\nr/F9uneZxo7XbCs6oaBZtlDBo5p3PguZzonjphnYuwKBgQDzvM+5Rc6kC6ZEdoHG\n5V09DvybZQ0U2gjmT3NEuhmLMwDkALFBcO3pQjTSOL0eeAw0FykOMggEkSwUGjDq\nbgsn/DA/CZcxz8KQOq/OcMPQvJ4BrtCxxQlrIJt3YxdeQEdtljBPiB7CT8Ct8CNB\nJAKE1GTiM21KIS7EBcQFLHijwwKBgQDIpVtovFWbcd3bzK8mH2vLa9Efty+ZcMYE\nbeHgaOzh6HA/YkcejIHf8wJOSBTleuWuuXz9YQECa2RyQuW9KwaRlDkmntb52ZJZ\ndnt0T8VOJM74CajwLHdXcIG9uDszNRRKpMjnKhB95/O8/HeZHUKraBUKcKPRvrUx\nydP8XuXO6wKBgQCEdmup9B8+ljoxYPpcvtByW4+7YCrA11IY4LrzcfRp6zkjsKCk\nwRv7NgkA6ucVBQcU1DVyyowC92auMiG9djrH603JJIwv/QpvWgWruysgaTGyFnDC\n/COHPfxf4NGVXnezPflZb8/PqIo9vZFbWJep2shNCsftjqUc0UlbynRyAwKBgQC7\na4I8DhglEDK9mq9Me/Mz261G49UpjebZwk5IUZpb1sPq4QEvru2t5A+WUcx7ItYi\n5I61G4RW3zu/Y2+3yNXk7ECKK7sBPVNwD7V3yv+xY76UgGl2lwKPAb+fGNTrmzwu\nEUi8bVVkVmMdd/K7alKZS6rDyr2rMWmNbUp/paEiKwKBgDnpgyg+iKeqaZiujfyQ\nN2ijRON7cEn8RS+1KjhbjqjV9eSwmhqc+EixrbYq/3PR0sc2mPPQFRE5p2qge9bc\ny4rRl7Zt/xAuEAQOYqO7+h5I0okVve/CRybjtTgQ6nwOgDBZNSiJPVD43opZRRrM\nHzVlii5hU2VNXPQxVwYoL8gA\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@quickmealplanner.iam.gserviceaccount.com",
+  "client_id": "114975202805358375850",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40quickmealplanner.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

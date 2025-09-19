@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>All Meals</title>
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      background: #ff7043;
+      width: 100%;
+      padding: 20px 0;
+      color: white;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin-top: 30px;
+    }
+
+    h2 {
+      color: #333;
+      text-align: center;
+    }
+
+    .meal-card {
+      background: white;
+      padding: 20px 25px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+
+    .meal-card h3 {
+      margin: 0 0 10px 0;
+      color: #ff7043;
+    }
+
+    .meal-card p {
+      margin: 5px 0;
+      color: #555;
+    }
+
+    .links {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: #ff7043;
+      font-weight: 600;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #eee;
+      margin: 15px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>📋 All Meals</h2>
+  </header>
+
+  <div class="container">
+
+    <div class="links">
+      <a href="/add-meal">Add New Meal</a>
+      <a href="/">Home</a>
+      <a href="/weekly-plan">Generate Weekly Plan</a>
+    </div>
+
+    <% if (meals.length === 0) { %>
+      <p style="text-align:center; color:#777;">No meals added yet.</p>
+    <% } else { %>
+      <% meals.forEach(meal => { %>
+        <div class="meal-card">
+          <h3><%= meal.mealName %> (<%= meal.time %>)</h3>
+          <p><strong>Ingredients:</strong> <%= meal.ingredients %></p>
+        </div>
+      <% }); %>
+    <% } %>
+
+  </div>
+
+</body>
+</html>
